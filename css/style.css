@@ -1,0 +1,198 @@
+.container {
+    width: 1260px;
+    height: 940px;
+    margin: auto 160px;
+    background-color: #EDF2C5;
+    display: flex;
+    justify-content: center;
+}
+.h1{
+    display: flex;
+    float: left;
+    color: #778A50;
+    font-size: 44px;
+    height: 42px;
+    width: 271px;
+    margin-left: 160px;
+    margin-right: 308px;
+}
+
+/*body*/
+body{
+    width: 1260px;
+    justify-content: center;
+    font-family:  'Arial Black', Arial, 'Arial Bold';
+}
+.header{
+    display: flex;
+    align-self: flex-end;
+    font-family: Arial;
+    font-weight: bold;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+    margin-top: 53px;
+    width: 210px;
+    height: 25px；
+}
+.btn_fb{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    margin-bottom: 17px;
+}
+.btn_ig{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    margin-bottom: 17px;
+}
+.line{
+    width: 1px;
+    height: 25px;
+    margin: 0 10px 18px;
+    background-color: #778a50;
+    margin: 53px 5px 0 5px;
+}
+.LOGIN{
+    font-family: Arial;
+    font-weight: bold;
+    height: 25px;
+    width: 60px;
+    border-radius: 3px;
+    border: 1px solid #778a50;
+    background-color: #EDF2C5;
+    color: #778A50;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 53px;    
+}
+.JOIN{
+    font-family: Arial;
+    font-weight: bold;
+    height: 25px;
+    width: 50px;
+    border-radius: 3px;
+    border: 1px solid #778a50;
+    background-color: #EDF2C5;
+    color: #778A50;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 53px; 
+}
+
+/*nav*/
+.nav{
+    height: 44pX;
+    width: 940px;
+    background-color: #778A50;
+    display: flex;    
+    align-items: center;
+    margin-left: 160px;
+    margin-bottom: 20px;
+    border-radius: 3px; 
+}
+.blank_nav{
+    float: left;
+    text-decoration:none;
+    margin-top: 16px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 16px;
+    color :#EDF2C5;
+    display: flex;
+    align-items: center;
+    text-decoration:none;
+}
+.img_main_pumpkin{
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+}
+/*Vegetables*/
+.article{
+    max-width: 450px;
+    float: left;
+    
+}
+.blank_veg{
+    height: 45px;
+    width: 415px;
+    padding-left: 30px;
+    color: #EDF2C5;
+    background-color: #778A50;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-left: 160px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.imgs{
+    width: 445px;
+    margin-left: 160px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+
+/*contact*/
+.aside{
+    float: right;
+    max-width: 450px;
+    margin-right: 160px;
+}
+.blank_c{
+    height: 45px;
+    width: 415px;
+    padding-left: 30px;
+    color: #EDF2C5;
+    background-color: #778A50;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.blank_p{
+    height: 140px;
+    width: 445px;
+    background-color: #F7FBDA;
+    color: #7D7D7D;
+    font-family: Arial;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.p1{
+    margin-left: 15px;
+    margin-bottom: 16px;
+    padding-top: 16px;
+    width: 414px;
+    line-height: 1.33em;
+}
+.blank_line{
+    width: 414px;
+    height: 1px;
+    color: #7D7D7D;
+}
+.p2{
+    margin-left: 15px;
+    margin-top: 16px;
+    width: 414px;
+    line-height: 1.83em;
+}
+/*footer*/
+.footer{
+    box-sizing: border-box;
+    height: 60px;
+    width: 1260px;    
+    color: #EDF2C5;
+    background-color: #778A50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 12px;
+}
